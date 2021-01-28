@@ -1,3 +1,9 @@
 [submodule "module-3/demo_isds"]
 	path = module-3/demo_isds
 	url = git@github.com:SamGuay/demo_isds.git
+[submodule "module-2/module-2/demo_isds"]
+	path = module-2/module-2/demo_isds
+	url = git@github.com:SamGuay/demo_isds.git
+[submodule "module-2/module-2/template_r"]
+	path = module-2/module-2/template_r
+	url = git@github.com:osumontreal/template_r.git
