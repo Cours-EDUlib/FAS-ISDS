@@ -61,14 +61,11 @@ Ce MOOC est gratuit et accessible tout au long de l’année. Son format asynchr
 vous permet de le suivre à votre propre rythme. Plusieurs modalités pédagogiques
 sont utilisées pour faciliter vos apprentissages :
 
-Des capsules pédagogiques présentant les notions théoriques et des exemples
-concrets Des capsules vidéo présentant le point de vue d’intervenants dans le
-domaine De courts quiz permettant de valider votre compréhension des concepts
-présentés Des quiz sommatifs à la fin de chaque module pour valider votre
-compréhension et obtenir votre attestation Des lectures pour consolider et
-approfondir vos apprentissages Divers exercices pratiques vous permettant de
-mettre en application les notions apprises, en utilisant des données fournies ou
-vos propres données de recherche
+- Des capsules pédagogiques présentant les notions théoriques et des exemples concrets 
+- Des capsules vidéo présentant le point de vue d’intervenants dans le domaine De courts quiz permettant de valider votre compréhension des concepts présentés 
+- Des quiz sommatifs à la fin de chaque module pour valider votre compréhension et obtenir votre attestation 
+- Des lectures pour consolider et approfondir vos apprentissages 
+- Divers exercices pratiques vous permettant de mettre en application les notions apprises, en utilisant des données fournies ou vos propres données de recherche
 
 ## Public cible
 
