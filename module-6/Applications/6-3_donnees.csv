@@ -1,19 +1,19 @@
 "","pays","region","calories"
 "1","Afghanistan",3,NA
 "2","Argentine",6,3113
-"3","ArmÈnie",5,NA
+"3","Arm√©nie",5,NA
 "4","Australie",1,3216
 "5","Autriche",1,3495
-"6","AzerbaÔdjan",5,NA
-"7","BarheÔn",5,NA
+"6","Azerbaƒèdjan",5,NA
+"7","Barheƒèn",5,NA
 "8","Bangladesh",3,2021
 "9","Barbados",6,NA
-"10","BÈlarussie",2,NA
+"10","B√©larussie",2,NA
 "11","Belgique",1,NA
 "12","Bolivie",6,1916
 "13","Bosnie",2,NA
 "14","Botswana",4,2375
-"15","BrÈsil",6,2751
+"15","Br√©sil",6,2751
 "16","Bulgarie",2,NA
 "17","Burkina Faso",4,2288
 "18","Burundi",4,1932
@@ -27,9 +27,9 @@
 "26","Costa Rica",6,2808
 "27","Croatie",2,NA
 "28","Cuba",6,NA
-"29","RÈp. TchËque",2,3632
+"29","R√©p. Tchƒçque",2,3632
 "30","Danemark",1,3628
-"31","RÈp. Dominic",6,2359
+"31","R√©p. Dominic",6,2359
 "32","Equateur",6,2531
 "33","Egypte",5,3336
 "34","Salvador",6,2317
@@ -39,64 +39,64 @@
 "38","France",1,3465
 "39","Gabon",4,2383
 "40","Gambie",4,NA
-"41","GÈorgie",2,NA
+"41","G√©orgie",2,NA
 "42","Allemagne",1,3443
-"43","GrËce",1,3825
+"43","Grƒçce",1,3825
 "44","Guatemala",6,2235
-"45","HaÔti",6,2013
+"45","Haƒèti",6,2013
 "46","Honduras",6,2247
 "47","Hong Kong",3,NA
 "48","Hongrie",2,3644
 "49","Islande",1,NA
 "50","Inde",3,2229
-"51","IndonÈsie",3,2750
+"51","Indon√©sie",3,2750
 "52","Iran",5,3181
 "53","Iraq",5,2887
 "54","Irlande",1,3778
-"55","IsraÎl",5,NA
+"55","Isra√´l",5,NA
 "56","Italie",1,3504
 "57","Japon",3,2956
 "58","Jordanie",5,2634
 "59","Kenya",4,2163
-"60","KoweÔt",5,3195
+"60","Koweƒèt",5,3195
 "61","Lettonie",2,NA
 "62","Liban",5,NA
-"63","LibÈria",4,2382
+"63","Lib√©ria",4,2382
 "64","Libya",5,3324
 "65","Lithuanie",2,NA
 "66","Malaisie",3,2774
 "67","Mexique",6,3052
 "68","Maroc",4,NA
-"69","CorÈe du N.",3,NA
+"69","Cor√©e du N.",3,NA
 "70","Pays-Bas",1,3151
-"71","Nlle ZÈlande",1,3362
+"71","Nlle Z√©lande",1,3362
 "72","Nicaragua",6,2265
-"73","NigÈria",4,2312
-"74","NorvËge",1,3326
+"73","Nig√©ria",4,2312
+"74","Norvƒçge",1,3326
 "75","Oman",5,NA
 "76","Pakistan",3,NA
 "77","Panama",6,2539
 "78","Paraguay",6,2757
-"79","PÈrou",6,2186
+"79","P√©rou",6,2186
 "80","Philippines",3,2375
 "81","Pologne",2,NA
 "82","Portugal",1,NA
 "83","Roumanie",2,3155
 "84","Russie",2,NA
 "85","Rwanda",4,1971
-"86","CorÈe du S.",3,NA
+"86","Cor√©e du S.",3,NA
 "87","Arab. Saoud.",5,2874
-"88","SÈnÈgal",4,2369
+"88","S√©n√©gal",4,2369
 "89","Singapour",3,3198
 "90","Somalie",4,1906
 "91","Afr. du Sud",4,NA
 "92","Espagne",1,3572
-"93","SuËde",1,2960
+"93","Suƒçde",1,2960
 "94","Suisse",1,3562
 "95","Syrie",5,NA
 "96","Taiwan",3,NA
 "97","Tanzanie",4,2206
-"98","ThaÔlande",3,2316
+"98","Thaƒèlande",3,2316
 "99","Turquie",5,3236
 "100","Em. Arab.U",5,NA
 "101","GB",1,3149
@@ -105,6 +105,6 @@
 "104","Ukraine",2,NA
 "105","Uruguay",6,2653
 "106","Uzbekistan",5,NA
-"107","VÈnÈzuÈla",6,2582
+"107","V√©n√©zu√©la",6,2582
 "108","Vietnam",3,2233
 "109","Zambie",4,2077
