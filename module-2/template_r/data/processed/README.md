@@ -1,1 +1,0 @@
-Le dossier `processed/` est l'emplacement pour vos données modifiées prêtes à être analysées.
