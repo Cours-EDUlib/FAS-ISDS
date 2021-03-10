@@ -1,0 +1,324 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "CP-explorer.ipynb",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "ir",
+      "display_name": "R"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Cours-EDUlib/FAS-ISDS/blob/main/module-3/3-5_importer_explorer.ipynb%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wJu9xbNRUAQU"
+      },
+      "source": [
+        "# Importer et explorer une base de données"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "vkll044OeB_H"
+      },
+      "source": [
+        "## Les bases de données intégrées aux modules\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "a6zMOFYtdZY4"
+      },
+      "source": [
+        "### Voir toutes les bases de données intégrées aux modules"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iBVsHYJ_drxN"
+      },
+      "source": [
+        "data(package = .packages(all.available = TRUE))"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tml3b96xdw5W"
+      },
+      "source": [
+        "### Voir les bases de données dans un module chargé particulier"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "TxCV_V3Ndt8W"
+      },
+      "source": [
+        "data(package=\"questionr\") "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "-o9tXAWkd2HH"
+      },
+      "source": [
+        "### Importer une base de données d'un module chargé\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "679p08WHd4NG"
+      },
+      "source": [
+        "data(hdv2003)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "MUWG2l0gZG6v"
+      },
+      "source": [
+        "## Faire une copie (et renommer) sa base dans un nouvel objet"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QFz-BnOuZIE-"
+      },
+      "source": [
+        "bd <- hdv2003"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "o_dO7b6Rhq9s"
+      },
+      "source": [
+        "## Voir la liste des objets (base de données) présents dans la session"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5aivL7NNhyIm"
+      },
+      "source": [
+        "ls() # ou objects()"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "uUQAYnvFY6Tv"
+      },
+      "source": [
+        "## Supprimer un  objet "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "-F7nj35fX-pg"
+      },
+      "source": [
+        "rm(NomObjet)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "giPO3nQJnbOt"
+      },
+      "source": [
+        "rm(aa, bb, cc)  # Supprimer plus d'un objet\n",
+        "rm(list = ls()) # Supprimer tous les objets"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "o7MlnNIDZRco"
+      },
+      "source": [
+        "## Afficher le contenu de sa base de données "
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "8xAsV_DGZUhv"
+      },
+      "source": [
+        "bd # visualiser la base de données complète"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Q0mIEX-2aJSR"
+      },
+      "source": [
+        "head(bd) # visualiser les 6 premières observations"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "HwnVGE7raOVy"
+      },
+      "source": [
+        "tail(bd) # visualiser les 6 dernières observations"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "LyuYzCgKZkBR"
+      },
+      "source": [
+        "## Afficher les noms de variables/colonnes"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "eIW3iWXVZl0_"
+      },
+      "source": [
+        "names(bd)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "uipnCDCQZoO3"
+      },
+      "source": [
+        "## Afficher le nombre de rangées et de colonnes (dimensions)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "OXmuIeVnZr6v"
+      },
+      "source": [
+        "ncol(bd)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "0r-dCp3KZun4"
+      },
+      "source": [
+        "nrow(bd)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QzFTu7rBZxMn"
+      },
+      "source": [
+        "dim(bd)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "t-XmRhezZ3UP"
+      },
+      "source": [
+        "## Examiner les caractéristiques sa base de données: classe, taille, structure"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "elA-ORbOZ57P"
+      },
+      "source": [
+        "class(bd)"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "M5xq5_oxZ_5f"
+      },
+      "source": [
+        "length(bd) # nombre de variables"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "epDZ3MdIaECQ"
+      },
+      "source": [
+        "str(bd)    # description plus détaillée de la structure du tableau "
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
