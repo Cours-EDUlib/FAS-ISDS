@@ -8,7 +8,7 @@
 
 
 # Installation et chargement des modules nécessaires
-install.packages("questionr", dep = TRUE)
+install.packages("questionr")
 install.packages("car", dep = TRUE)
 install.packages("psych", dep = TRUE)
 install.packages("Hmisc", dep = TRUE)
