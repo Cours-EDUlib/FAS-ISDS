@@ -6,7 +6,7 @@ l'[Université de Montréal](https://umontreal.ca), Faculté des arts et des
 sciences, Département de sociologie.
 [:target:](https://catalogue.edulib.org/fr/cours/UMontreal-ISDS/)
 
-Professeur: Éric Lacourse
+Professeur: [Éric Lacourse](https://github.com/Labo-Lacourse)
 
 Formateurs: [Clémentine Courdi](https://github.com/clemcou-socio) (maitrise),
 [Samuel Guay](https://github.com/SamGuay) (doctorant) et
